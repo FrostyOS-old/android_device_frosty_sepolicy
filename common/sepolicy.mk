@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lineage
+# inherit from Frosty
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/public
+    device/frosty/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/private
+    device/frosty/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/common/vendor
+    device/frosty/sepolicy/common/vendor
